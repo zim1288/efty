@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Examination</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Online Examination System</h1>
+  </header>
+  <main>
+    <form id="examForm" action="submit.php" method="POST">
+      <div class="question">
+        <p>1. Which tag is used to create a hyperlink in HTML?</p>
+        <label><input type="radio" name="q1" value="<a>" required> &lt;a&gt;</label>
+        <label><input type="radio" name="q1" value="<link>"> &lt;link&gt;</label>
+        <label><input type="radio" name="q1" value="<href>"> &lt;href&gt;</label>
+      </div>
+      <div class="question">
+        <p>2. Which property is used in CSS to change text color?</p>
+        <label><input type="radio" name="q2" value="font-color" required> font-color</label>
+        <label><input type="radio" name="q2" value="text-style"> text-style</label>
+        <label><input type="radio" name="q2" value="color"> color</label>
+      </div>
+      <div class="question">
+        <p>3. Which language is used for structuring web pages?</p>
+        <label><input type="radio" name="q3" value="Python" required> Python</label>
+        <label><input type="radio" name="q3" value="HTML"> HTML</label>
+        <label><input type="radio" name="q3" value="C++"> C++</label>
+      </div>
+      <div class="question">
+        <p>4. Which keyword is correct for printing text in PHP?</p>
+        <label><input type="radio" name="q4" value="echo" required> echo</label>
+        <label><input type="radio" name="q4" value="print()"> print()</label>
+        <label><input type="radio" name="q4" value="write"> write</label>
+      </div>
+      <div class="question">
+        <p>5. Which symbol is used for single-line comments in JavaScript?</p>
+        <label><input type="radio" name="q5" value="//" required> //</label>
+        <label><input type="radio" name="q5" value="<!-- -->"> &lt;!-- --&gt;</label>
+        <label><input type="radio" name="q5" value="#"> #</label>
+      </div>
+      <button type="submit">Submit Exam</button>
+    </form>
+  </main>
+</body>
+</html>
