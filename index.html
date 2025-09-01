@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Web Application Online Exam</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">Web Application Online Exam</div>
+  
+  <form id="examForm" action="submit.php" method="POST">
+    <div class="question">
+      <p>1. What does HTML stand for?</p>
+      <label><input type="radio" name="q1" value="correct"> HyperText Markup Language</label><br>
+      <label><input type="radio" name="q1" value="wrong"> HighText Machine Language</label><br>
+      <label><input type="radio" name="q1" value="wrong"> Hyperlink and Text Markup Language</label>
+    </div>
+
+    <div class="question">
+      <p>2. Which tag is used to include JavaScript in HTML?</p>
+      <label><input type="radio" name="q2" value="correct">&lt;script&gt;</label><br>
+      <label><input type="radio" name="q2" value="wrong">&lt;javascript&gt;</label><br>
+      <label><input type="radio" name="q2" value="wrong">&lt;js&gt;</label>
+    </div>
+
+    <div class="question">
+      <p>3. Which HTTP method is commonly used for form submission?</p>
+      <label><input type="radio" name="q3" value="wrong"> PUT</label><br>
+      <label><input type="radio" name="q3" value="correct"> POST</label><br>
+      <label><input type="radio" name="q3" value="wrong"> DELETE</label>
+    </div>
+
+    <div class="question">
+      <p>4. Which database is commonly used with PHP?</p>
+      <label><input type="radio" name="q4" value="correct"> MySQL</label><br>
+      <label><input type="radio" name="q4" value="wrong"> MongoDB</label><br>
+      <label><input type="radio" name="q4" value="wrong"> Firebase</label>
+    </div>
+
+    <div class="question">
+      <p>5. Which of the following is a CSS framework?</p>
+      <label><input type="radio" name="q5" value="wrong"> Django</label><br>
+      <label><input type="radio" name="q5" value="wrong"> Laravel</label><br>
+      <label><input type="radio" name="q5" value="correct"> Bootstrap</label>
+    </div>
+
+    <button type="button" onclick="validateAndSubmit(event)">Submit Exam</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
