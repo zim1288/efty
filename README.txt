@@ -9,7 +9,7 @@ FILES:
 USAGE:
 1. Client-side (no server):
    - Open index.html in your browser.
-   - Click "Check (JS)" to see results instantly.
+   - Click "Check (JS)" to see results instantly..//
 
 2. Server-side (with PHP):
    - Place the folder inside "htdocs" in XAMPP.
